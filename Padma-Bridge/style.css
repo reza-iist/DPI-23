@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.slider{
+    position: relative;
+}
+.logo{
+    position: absolute;
+    top: 5px;
+    left: 10px;
+}
+.bdlogo{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+}
+.home img{
+    width: 15px;
+    height: 15px;
+}
+ul li:first-child{
+    background-color: green;
+    color: white;
+    font-size: 12px;
+}
+ul li span{
+    color: white;
+}
+
+.card img{
+    width: 20%;
+    position: absolute;
+    top: -5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#top1{
+    width: 13%;
+    
+}
+.box{
+    background-color: white;
+    width: 65px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    visibility: hidden;
+    opacity: 0;
+}
+.cb{
+    background-color: #f6f6f6 !important;
+}
+.cb:hover{
+    background-color: #fff !important;
+}
+
+.recent_top p{
+    font-size: 12px;
+}
+.bottom a{
+    text-decoration: none;
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    background-color: #e8e8e8;
+    padding: 3px 8px;
+}
+.bottom a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+.menu_1 li:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.menu_1 li:first-child{
+    background-color: green;
+    color: white;
+    
+ }
+
+/*  2nd menu start*/
+.menu_bg{
+    background-color: #f6f6f6;
+    border-top: 1px solid #e8e8e8;
+    /* border-bottom: 1px solid #e8e8e8; */
+}
+
+#menu_1 #menu_item{
+    list-style: none;
+    
+    display: inline-block;
+    padding: 10px 15px;
+    text-align: center;
+}
+/* #menu_1 #menu_item #home-1{
+    text-decoration: none;
+    color: #000;
+    
+} */
+#menu_1 #menu_item #home-1, #menu_1 #menu_item #home-2{
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    
+}
+#menu_1 #menu_item:hover, #menu_1 #menu_item #home-2:hover{
+    background-color: green;
+    color: #fff !important;    
+}
+
+/* #menu_1 #menu_item #home-2:hover{
+    
+    color: #fff;
+    
+} */
+#menu_1 #menu_item #home-1:first-child{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 7px 6px 3px 6px;
+    
+}
+
+#home-1 img{
+    width: 20px;
+
+}
+#home-2 img{
+    width: 20px;
+
+}
+/* 2nd menu end */
+.bg_footer{
+    background-color: #3A3A3A;
+}
+.bg_bottom_down{
+    background-color: #303030;
+   
+}
+.bg_bottom_down h6{
+    color: #777;
+    padding: 10px 0px;
+    font-weight: 400;
+}
+
+.footer_row_1{
+    color: #bbb;
+}
